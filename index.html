@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://kit.fontawesome.com/6f3bba005b.js" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<title>PET-SHOP</title>
 <style>
     .adlam-font{
   font-family: "ADLaM Display", serif;
   font-weight: normal;
 }
-
 </style>
-    <title>PET SHOP</title>
 </head>
+<!-- mobile ber -->
+ <div class="md:hidden border border-black flex justify-between items-center">
+    <div>
+        <img src="./c1-assets/logo-header.png" alt="">
+    </div>
+    <div class="text-5xl"><i class="fa-solid fa-bars"></i></div>
+ </div>
 <body class="adlam-font">
-    <nav>
-       
-    </nav>
+<section class="bg-[#fff9f4] hidden md:block">
+    <nav class="md:container mx-auto mt-4">
+        <div class="flex items-center justify-between ">
+         <div class="flex items-center">
+             <img src="./c1-assets/logo-header.png" alt="">
+             <h2 class="text-3xl pl-3">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+         </div>
+         <div class="">
+             <ul class="flex gap-6">
+                <li>Find a pet</li>
+                 <li>Breeds</li>
+                 <li>Contact us</li>
+             </ul>
+         </div>
+         <div class="flex gap-6 items-center">
+             <i class="fa-regular fa-bell"></i>
+             <i class="fa-solid fa-magnifying-glass"></i>
+             <button class="border rounded-lg px-5 py-2 border-[#ffdc26]">Login</button>
+             <button class="bg-[#ffdc26] border rounded-lg px-5 py-2 ">Register</button>
+         </div>
+        </div>
+     </nav>
+</section>
     <!-- header -->
     <header class="md:container mx-auto"></header>
 </body>
