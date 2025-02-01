@@ -16,8 +16,11 @@
             font-family: "ADLaM Display", serif;
             font-weight: normal;
         }
+	
     </style>
 </head>
+
+
 
 <body class="adlam-font ">
     <!-- mobile ber -->
@@ -55,20 +58,25 @@
     <header class="md:container mx-auto w-[95%] ">
         <div class="relative">
             <div class="absolute -top-[11rem] md:top-16">
-                <h1 class="md:text-6xl text-4xl font-medium leading-normal">Pamper Your Pet, <br>Because They Deserve
+                <h1 class="md:text-6xl text-3xl font-medium md:leading-normal">Pamper Your Pet, <br>Because They Deserve
                     <br>the Bes</h1>
                 <p class="text-gray-500 md:text-lg pt-3">Discover a world of treats, toys, and essentials handpicked for
                     <br class="hidden md:block"> your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="mt-4 bg-[#ffdc26] px-5 py-2 rounded-lg">Find a pet</button>
             </div>
             <div class="mt-52 md:mt-0">
-                <img class="mx-auto" src="./c1-assets/cat-big.png" alt="">
+                <div class="">
+                    <img class="mx-auto" src="./c1-assets/cat-big.png" alt="">
+                </div>
             </div>
         </div>
     </header>
+
+
+
     <!-- Browse card Categories -->
     <section class="md:container w-[95%] mx-auto mt-9 ">
-        <h1 class="text-4xl mb-11">Browse By Categories</h1>
+        <h1 class="md:text-4xl text-2xl mb-11">Browse By Categories</h1>
         <!-- card container -->
         <div class="grid grid-cols-2 md:grid-cols-6 gap-5">
             <div class="bg-[#f9df8a] rounded-lg text-center px-7 py-7">
@@ -240,6 +248,48 @@
             </div>
         </section>
     </div>
+    <!-- optional section -->
+    <section>
+        <div>
+            
+            <section class="bg-gray-100 py-10 mt-6">
+                <h1 class="mb-3 md:text-5xl text-3xl text-center">our service</h1>
+                <div class="max-w-5xl mx-auto grid grid-cols-2 bg-white rounded-lg shadow-md p-10 md:flex flex-wrap justify-between items-center">
+                
+                  <!-- Stat Box 1 -->
+                  <div class="md:flex flex-col items-center text-center w-1/4">
+                    <img src="./c1-assets/Vector.png" alt="Chat Icon" class="w-10 h-10 mb-3">
+                    <h3 class="text-2xl font-bold text-gray-800">235+</h3>
+                    <p class="text-gray-500">Happy Client Review</p>
+                  </div>
+              
+                  <!-- Stat Box 2 -->
+                  <div class="md:flex flex-col items-center text-center w-1/4">
+                    <img src="./c1-assets/Vector (1).png" alt="Department Icon" class="w-10 h-10 mb-3">
+                    <h3 class="text-2xl font-bold text-gray-800">50+</h3>
+                    <p class="text-gray-500">Work Departments</p>
+                  </div>
+              
+                  <!-- Stat Box 3 -->
+                  <div class="md:flex flex-col items-center text-center w-1/4">
+                    <img src="./c1-assets/user-group.png" alt="Client Icon" class="w-10 h-10 mb-3">
+                    <h3 class="text-2xl font-bold text-gray-800">30k+</h3>
+                    <p class="text-gray-500">Our Happy Client</p>
+                  </div>
+              
+                  <!-- Stat Box 4 -->
+                  <div class="md:flex flex-col items-center text-center w-1/4">
+                    <img src="./c1-assets/user-multiple (1).png" alt="Staff Icon" class="w-10 h-10 mb-3">
+                    <h3 class="text-2xl font-bold text-gray-800">307+</h3>
+                    <p class="text-gray-500">Staff Members</p>
+                  </div>
+              
+                </div>
+              </section>
+              
+        </div>
+    </section>
+
     <!-- Big card section Desktop-->
     <section class="mt-28 hidden md:block ">
         <div class="md:container w-[95%]  mx-auto">
@@ -296,7 +346,7 @@
                 </div>
             </div>
             <!-- Second Card -->
-            <div>
+            <div class="mb-[450px] md:mb-auto">
                 <div
                     class="relative bg-gradient-to-r from-[#fff7ed] to-[#fae194] p-6 mt-5 mb-80  md:col-span-3 h-[24.5rem] md:h-auto rounded-2xl fle items-center">
                     <div class=" absolute top-[1.625rem] right-[9rem]  space-y-3 md:pl-14  ">
@@ -312,28 +362,27 @@
             </div>
     </section>
     <!-- footer -->
-    <footer class="mt-48 relative">
+    <footer class="mt-48 relative ">
         <div class="w-[70%] mx-auto">
-            <div class=" absolute z-10 -top-44 w-[70%]">
+            <div class=" absolute z-10 md:-top-44 -top-96 w-[70%]">
                 <div class="hero w-full  bg-[#fff9f4]">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                            class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./c1-assets/cute-pet-small.png"
+                            class="" />
                         <div>
-                            <h1 class="text-5xl font-bold">Box Office News!</h1>
+                            <h1 class="text-3xl font-semibold">Get Pawsome News!</h1>
                             <p class="py-6">
-                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem
-                                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                Exclusive training tips, ticks, product deals and more.
                             </p>
-                            <button class="btn btn-primary">Get Started</button>
+                            <input class="w-[100%]" type="text" placeholder="Enter email"><br>
+                            <button class="bg-[#FFDC26] px-4 rounded-xl py-2 mt-3">Subscribe</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--top box -->
-        <section class=" bg-[#ffed92] mb-96 h-[36rem] md:h-96 relative">
+        <section class=" bg-[#ffed92] h-[36rem] md:h-96 relative">
             <div class="footer text-base-content md:container mx-auto w-[95%] absolute top-[13rem] right-[1rem]">
                 <aside>
 
